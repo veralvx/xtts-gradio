@@ -23,12 +23,12 @@ podman build . -t xtts_gradio
 Instead of building the image from source, you can pull it from docker.io or ghcr.io:
 
 ```
-podman pull docker.io/lvxvvv/xtts_gradio:latest
+podman pull docker.io/veralvx/xtts_gradio:latest
 ```
 
 
 ```
-podman pull ghcr.io/lvxvvv/xtts_gradio:latest
+podman pull ghcr.io/veralvx/xtts_gradio:latest
 ```
 
 ## Running the Container
