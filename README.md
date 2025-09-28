@@ -45,9 +45,9 @@ The following command will be executed:
 podman run -it --gpus all -p 5003:5003 --entrypoint python3 xtts_gradio /root/tts/TTS/demos/xtts_ft_demo/xtts_demo.py
 ```
 
-If you are using docker, modify this file so it uses `docker` instead of `podman`.
+If you are using Docker, modify this file so it uses `docker` instead of `podman`.
 
-This commands runs the container with an entrypoint that initializes the Web UI. It will be served on port `5003` on your localhost:
+This command runs the container with an entrypoint that initializes the Web UI. It will be served on port `5003` on your localhost:
 
 ![](gradio_example.png)
 
